@@ -78,69 +78,31 @@ public void LoadLevel(int level)
     if (level == 0)
     {
 
-
         CreateDot("Red", Color.red, 0, 0);
-        CreateDot("Red", Color.red, 2, 0);
+        CreateDot("Red", Color.red, 4, 0);
 
         CreateDot("Blue", Color.blue, 0, 1);
-        CreateDot("Blue", Color.blue, 0, 4);
+        CreateDot("Blue", Color.blue, 4, 1);
 
-        CreateDot("Green", Color.green, 1, 1);
-        CreateDot("Green", Color.green, 4, 1);
+        CreateDot("Green", Color.green, 0, 2);
+        CreateDot("Green", Color.green, 4, 2);
 
-        CreateDot("Yellow", Color.yellow, 2, 2);
-        CreateDot("Yellow", Color.yellow, 4, 2);
+        CreateDot("Yellow", Color.yellow, 0, 3);
+        CreateDot("Yellow", Color.yellow, 4, 3);
 
-        CreateDot("Magenta", Color.magenta, 3, 3);
+        CreateDot("Magenta", Color.magenta, 0, 4);
         CreateDot("Magenta", Color.magenta, 4, 4);
     }
     else if (level == 1)
     {
 
-
         CreateDot("Red", Color.red, 0, 0);
-        CreateDot("Red", Color.red, 0, 3);
+        CreateDot("Red", Color.red, 0, 4);
 
         CreateDot("Blue", Color.blue, 1, 0);
-        CreateDot("Blue", Color.blue, 3, 0);
-
-        CreateDot("Green", Color.green, 1, 2);
-        CreateDot("Green", Color.green, 4, 2);
-
-        CreateDot("Yellow", Color.yellow, 2, 3);
-        CreateDot("Yellow", Color.yellow, 4, 3);
-
-        CreateDot("Magenta", Color.magenta, 0, 4);
-        CreateDot("Magenta", Color.magenta, 4, 4);
-    }
-    else if (level == 2)
-    {
-
-
-        CreateDot("Red", Color.red, 0, 0);
-        CreateDot("Red", Color.red, 4, 0);
-
-        CreateDot("Blue", Color.blue, 0, 1);
-        CreateDot("Blue", Color.blue, 2, 1);
-
-        CreateDot("Green", Color.green, 0, 2);
-        CreateDot("Green", Color.green, 4, 2);
-
-        CreateDot("Yellow", Color.yellow, 1, 3);
-        CreateDot("Yellow", Color.yellow, 4, 3);
-
-        CreateDot("Magenta", Color.magenta, 0, 4);
-        CreateDot("Magenta", Color.magenta, 4, 4);
-    }
-    else if (level == 3)
-    {
-        CreateDot("Red", Color.red, 0, 0);
-        CreateDot("Red", Color.red, 0, 2);
-
-        CreateDot("Blue", Color.blue, 0, 3);
         CreateDot("Blue", Color.blue, 1, 4);
 
-        CreateDot("Green", Color.green, 1, 0);
+        CreateDot("Green", Color.green, 2, 0);
         CreateDot("Green", Color.green, 2, 4);
 
         CreateDot("Yellow", Color.yellow, 3, 0);
@@ -149,21 +111,58 @@ public void LoadLevel(int level)
         CreateDot("Magenta", Color.magenta, 4, 0);
         CreateDot("Magenta", Color.magenta, 4, 4);
     }
-    else if (level == 4)
+    else if (level == 2)
     {
+
         CreateDot("Red", Color.red, 0, 0);
-        CreateDot("Red", Color.red, 4, 0);
+        CreateDot("Red", Color.red, 2, 0);
 
-        CreateDot("Blue", Color.blue, 0, 1);
         CreateDot("Blue", Color.blue, 0, 4);
+        CreateDot("Blue", Color.blue, 2, 4);
 
-        CreateDot("Green", Color.green, 1, 1);
-        CreateDot("Green", Color.green, 4, 1);
+        CreateDot("Green", Color.green, 0, 2);
+        CreateDot("Green", Color.green, 4, 2);
+
+        CreateDot("Yellow", Color.yellow, 2, 1);
+        CreateDot("Yellow", Color.yellow, 4, 1);
+
+        CreateDot("Magenta", Color.magenta, 2, 3);
+        CreateDot("Magenta", Color.magenta, 4, 3);
+    }
+    else if (level == 3)
+    {
+
+        CreateDot("Red", Color.red, 0, 0);
+        CreateDot("Red", Color.red, 0, 2);
+
+        CreateDot("Blue", Color.blue, 0, 4);
+        CreateDot("Blue", Color.blue, 2, 4);
+
+        CreateDot("Green", Color.green, 1, 0);
+        CreateDot("Green", Color.green, 3, 0);
 
         CreateDot("Yellow", Color.yellow, 2, 2);
         CreateDot("Yellow", Color.yellow, 4, 2);
 
-        CreateDot("Magenta", Color.magenta, 3, 3);
+        CreateDot("Magenta", Color.magenta, 4, 0);
+        CreateDot("Magenta", Color.magenta, 4, 4);
+    }
+    else if (level == 4)
+    {
+
+        CreateDot("Red", Color.red, 0, 1);
+        CreateDot("Red", Color.red, 4, 1);
+
+        CreateDot("Blue", Color.blue, 0, 3);
+        CreateDot("Blue", Color.blue, 4, 3);
+
+        CreateDot("Green", Color.green, 1, 0);
+        CreateDot("Green", Color.green, 3, 0);
+
+        CreateDot("Yellow", Color.yellow, 1, 4);
+        CreateDot("Yellow", Color.yellow, 3, 4);
+
+        CreateDot("Magenta", Color.magenta, 2, 2);
         CreateDot("Magenta", Color.magenta, 4, 4);
     }
 }
